@@ -20,11 +20,15 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 article {
   max-width: 43em;
 
   margin-top: 1.3rem;
-  padding: 0 .5rem;
+  padding: 0 1rem;
 }
 
 article h1 {
@@ -70,11 +74,23 @@ blockquote {
 
 .quote {
   color: #999;
+
+  margin: 0;
+  padding: 0;
+}
+
+blockquote > p {
+  margin: 0;
+  margin-bottom: 1.3rem;
 }
 
 ol {
   margin: 0;
+  margin-left: 1rem;
   margin-bottom: 1.3rem;
+  padding: 0;
+
+  text-align: left;
 }
 
 @media only screen and (min-width: 38em) {
